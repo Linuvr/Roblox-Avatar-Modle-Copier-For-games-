@@ -1,0 +1,19 @@
+{
+    "name": "Avatar Modle Copier",
+    "version": "1.0", 
+    "manifest_version": 2,
+    "description": "Get your avatar modle whitch 1 click", 
+    "browser_action": {
+        "default_icon": "icon.png"     
+    },
+    "permissions": [
+        "cookies",
+        "https://www.roblox.com/" 
+    ],
+    "background": {
+        "scripts": ["Java.js"]
+    },
+    "icons": { "16": "icon.png",
+           "48": "icon.png",
+          "128": "icon.png" }
+}
